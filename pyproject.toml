@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "paper-finder"
+version = "0.1.0"
+description = "Fetch PubMed papers with non-academic pharma/biotech authors"
+authors = ["Your Name <your@email.com>"]
+packages = [{ include = "paper_finder" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.scripts]
+get-papers-list = "cli:main"
