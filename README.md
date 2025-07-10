@@ -42,7 +42,17 @@ cli.py                     # CLI entry script
 pyproject.toml             # Poetry config
 README.md                  # This file
 ```
+##  Python Libraries Used
 
+| Library        | Purpose                                      |
+|----------------|----------------------------------------------|
+| `requests`     | Sending API requests to OpenRouter           |
+| `dotenv`       | To load `.env` and manage API keys securely  |
+| `argparse`     | Build command-line interface (CLI)           |
+| `csv`          | Save structured data to `.csv` format        |
+| `typing`       | Type hints for better code quality           |
+| `os`           | Environment variable and path handling       |
+| `logging`      | Debug and info logs during development       |
 ---
 
 ##  LLM Integration Details
