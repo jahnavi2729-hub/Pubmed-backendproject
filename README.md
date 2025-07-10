@@ -2,7 +2,7 @@
 
 This is a command-line tool that allows you to search scientific articles on PubMed and automatically extract papers with at least one **non-academic (pharmaceutical or biotech)** author. The classification is performed using an LLM (Mistral-7B via OpenRouter), making it a smart and realistic solution for real-world biomedical data filtering.
 
-This project was built as a solution for the **Aganitha take-home exercise**.
+
 
 ---
 
@@ -183,6 +183,4 @@ The accompanying `.mp4` file shows:
 
 ---
 
-##  License
 
-This project is open-sourced under the MIT License.
